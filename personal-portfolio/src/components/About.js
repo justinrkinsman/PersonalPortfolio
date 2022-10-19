@@ -22,7 +22,7 @@ class About extends React.Component {
                             <li>Video games</li>
                             <li>Playing guitar</li>
                             <li>Reading</li>
-                            <li>Watching campy movies</li>
+                            <li>Collecting obscure movies</li>
                         </ul>
                     </div>
                     <img src={Working} alt='Woman working at desk'></img>
