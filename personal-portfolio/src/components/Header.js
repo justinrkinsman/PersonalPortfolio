@@ -1,3 +1,5 @@
+import './Header.css'
+
 export const Navbar = () => {
     return(
         <div className='navbar'>
