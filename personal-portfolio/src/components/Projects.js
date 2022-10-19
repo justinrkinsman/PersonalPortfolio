@@ -1,4 +1,5 @@
 import React from 'react'
+import { ProjectCard } from './ProjectCard'
 
 class Projects extends React.Component {
     render() {
@@ -6,6 +7,7 @@ class Projects extends React.Component {
             <div className='projectsSection'>
                 <h2>Projects</h2>
                 <p>Grid containing the individual project sections</p>
+                <ProjectCard />
             </div>
         )
     }
