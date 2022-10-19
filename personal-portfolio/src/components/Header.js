@@ -2,7 +2,7 @@ import './Header.css'
 
 export const Navbar = () => {
     return(
-        <div className='navbar'>
+        <div className='navbar sticky'>
             <a className='activeNavLink' href='#home'>Home</a>
             <a href='#about'>About</a>
             <a href='#experience'>Experience</a>
