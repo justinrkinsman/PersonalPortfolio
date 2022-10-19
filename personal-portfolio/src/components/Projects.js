@@ -10,5 +10,5 @@ class Projects extends React.Component {
         )
     }
 }
-/*Make a subcomponent for individual project cards*/
+/*Make a subcomponent for individual project cards (functional components)*/
 export default Projects
