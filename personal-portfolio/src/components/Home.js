@@ -1,15 +1,22 @@
 import React from 'react'
+import Profile from '../images/profile.jpg'
+import "./Home.css"
 
-class About extends React.Component {
+class LandingPage extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Hello There!</h1>
-                <h2>I'm Justin Kinsman</h2>
-                <h3>Self-taught full stack developer</h3>
+            <div className='landingPage'>
+                <div className="landingPageText">
+                    <h1 className='intro'>Hello There!</h1>
+                    <p className='name'>I'm Justin Kinsman</p>
+                    <p className='selfTaught'>Self-taught full stack developer</p>
+                </div>
+                <div className="profilePic">
+                    <img src={Profile} alt='Placeholder'></img>
+                </div>
             </div>
         )
     }
 }
 
-export default About
+export default LandingPage

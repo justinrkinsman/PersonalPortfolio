@@ -1,0 +1,29 @@
+img {
+    height: 250px;
+    width: auto;
+}
+
+/*.profilePic {
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    overflow: hidden;
+}*/
+
+.landingPage {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.selfTaught {
+    font-size: 25px;
+}
