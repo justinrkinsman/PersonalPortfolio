@@ -1,3 +1,5 @@
+import './ProjectCard.css'
+
 export const ProjectCard = (props) => {
     
     return(

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ProjectCard } from './ProjectCard'
 import Library from '../images/library.jpg'
+import './Projects.css'
 
 function Projects() {
     
@@ -11,11 +12,10 @@ function Projects() {
     return (
         <div className='projectsSection'>
             <h2>Projects</h2>
-            <grid>
-                <div className="projectCard">
-                    <ProjectCard source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description}/>
-                </div>
-            </grid>
+            <div className="projectGrid">
+                <ProjectCard source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description}/>
+                <ProjectCard source={images[0][1]} alt={images[0][0]} title={BATTLESHIP.title} languages={BATTLESHIP.languages} description={BATTLESHIP.description}/>
+            </div>
         </div>
     )
 }
@@ -24,6 +24,12 @@ const LIBRARY = {
     title: 'Library',
     languages: 'HTML, CSS, and JavaScript',
     description: 'Library project using object literals, prototypal inheritance, and constructors'
+}
+
+const BATTLESHIP = {
+    title: 'Battleship',
+    languages: 'HTML, CSS, JavaScript, Jest',
+    description: 'This battleship game was my first attempt at building a project using TDD'
 }
 
 /*Make a subcomponent for individual project cards (functional components)*/
