@@ -39,7 +39,10 @@
 
 .App {
   color: #a1afbd;
-  padding-top: 30px;
+}
+
+.content {
+  padding: 60px;
 }
 
 /*#4b7d97

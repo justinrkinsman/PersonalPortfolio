@@ -1,0 +1,21 @@
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
