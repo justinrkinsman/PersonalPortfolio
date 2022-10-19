@@ -1,10 +1,11 @@
-export const ProjectCard = () => {
+export const ProjectCard = (props) => {
+    
     return(
         <fieldset className='projectCard'>
-            <p>Screenshot of project</p>
-            <p>Title of project</p>
-            <p>Languages/tools used to build project</p>
-            <p>Description</p>
+            <img src={props.source} alt={props.alt}></img>
+            <p>{props.title}</p>
+            <p>{props.languages}</p>
+            <p>{props.description}</p>
         </fieldset>
     )
 }
