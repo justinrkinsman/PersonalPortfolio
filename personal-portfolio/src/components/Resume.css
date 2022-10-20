@@ -3,3 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+.resumeSection {
+    padding-top: 20px;
+}
