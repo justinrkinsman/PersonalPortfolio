@@ -19,3 +19,9 @@ p, li {
     display: flex;
     justify-content: space-between;
 }
+
+.sticky {
+    position: fixed;
+    top: 25;
+    width: 100%;
+}
