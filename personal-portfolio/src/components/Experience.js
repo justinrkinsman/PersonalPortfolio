@@ -4,7 +4,7 @@ import './Experience.css'
 class Experience extends React.Component {
     render() {
         return (
-            <div className='experienceSection'>
+            <div className='experienceSection' id='experiencePage'>
                 <h2>Experience</h2>
                 <div className='handsOnExperience'>
                     <h3>Hands-On Experience</h3>

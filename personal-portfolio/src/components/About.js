@@ -1,26 +1,26 @@
-import React, { useEffect } from 'react'
+import React/*, { useEffect }*/ from 'react'
 import "./About.css"
 import Working from '../images/working.jpg'
 
-function stickyHeader(headerToStick) {
-    let rect = headerToStick.getBoundingClientRect()
-    if (rect.top <= 60){
-        headerToStick.classList.add('sticky')
+/*function stickyHeader(headerToStick) {
+    let sticky = headerToStick.offsetTop
+    console.log(sticky)
+    if ((window.pageYOffset + 16) > sticky){
+        headerToStick.classList.add('stickyHeader')
     }else {
-        console.log('hello')
-        //headerToStick.classList.remove('sticky')
+        headerToStick.classList.remove('stickyHeader')
     }
-}
+}*/
 
 export function About() {
-    useEffect(() => {
+    /*useEffect(() => {
         const header = document.getElementById('aboutHeader')
         window.onscroll = function() {
             stickyHeader(header)
         }
-    }, [])
+    }, [])*/
     return (
-        <div className='aboutSection'>
+        <div className='aboutSection' id='aboutPage'>
             <h2 id='aboutHeader'>About</h2>
             <div className="bio">
                 <h3 className='bioHeader'>Bio</h3>

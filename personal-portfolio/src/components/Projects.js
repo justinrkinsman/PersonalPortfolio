@@ -10,7 +10,7 @@ function Projects() {
     ])
     
     return (
-        <div className='projectsSection'>
+        <div className='projectsSection' id='projectsPage'>
             <h2>Projects</h2>
             <div className="projectGrid">
                 <ProjectCard source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description}/>

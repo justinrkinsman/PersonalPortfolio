@@ -20,8 +20,9 @@ p, li {
     justify-content: space-between;
 }
 
-.sticky {
+/*.stickyHeader {
     position: fixed;
-    top: 25;
+    top: 0;
     width: 100%;
-}
+    margin-top: 32px;
+}*/
