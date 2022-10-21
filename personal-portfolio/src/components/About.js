@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import "./About.css"
 import Working from '../images/working.jpg'
 

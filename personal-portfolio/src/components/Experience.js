@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import './Experience.css'
-import { stickyHeader } from './About'
 
 export function Experience() {
     //const ref = useRef(null)
