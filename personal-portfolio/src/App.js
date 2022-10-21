@@ -26,7 +26,7 @@ function App() {
 }
 
 const header = document.getElementsByClassName('header')
-const emptyHeader = document.getElementsByClassName('stickyHeader')
+const emptyHeader = document.getElementsByClassName('pageStickyHeader')
 
 window.onscroll = function () {
   stickyHeader()
@@ -36,6 +36,10 @@ function stickyHeader() {
   for ( let i = 0; i < header.length; i++){
     if ((window.pageYOffset + 50) > header[i].offsetTop) {
       //console.log(header[i])
+      let current = document.querySelector('.stickyHeader')
+      if (current) {
+        console.log('current')
+      }
       header[i].classList.add('stickyHeader')
     }
     if ((window.pageYOffset < emptyHeader[i].offsetTop)) {

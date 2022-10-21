@@ -35,7 +35,7 @@ export function About() {
     }, [])*/
     return (
         <>
-            <div id='aboutPageStickyHeader' className='stickyHeader' /*ref={emptyHeaderRef}*/></div>
+            <div id='aboutPageStickyHeader' className='pageStickyHeader' /*ref={emptyHeaderRef}*/></div>
             <div className='aboutSection' id='aboutPage'>
                 <h2 id='aboutHeader' className='header' /*ref={headerRef}*/>About</h2>
                 <div className="bio">

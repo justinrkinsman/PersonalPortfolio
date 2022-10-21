@@ -14,7 +14,7 @@ export function Experience() {
     }, [])*/
     return (
         <>
-            <div id='experiencePageStickyHeader' className='stickyHeader' /*ref={ref}*/></div>
+            <div id='experiencePageStickyHeader' className='pageStickyHeader' /*ref={ref}*/></div>
             <div className='experienceSection' id='experiencePage'>
                 <h2 id='experienceHeader' className='header'>Experience</h2>
                 <div className='handsOnExperience'>
