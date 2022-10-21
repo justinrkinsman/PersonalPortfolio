@@ -34,6 +34,9 @@ window.onscroll = function () {
 
 function stickyHeader() {
   for ( let i = 0; i < header.length; i++){
+    if ((window.pageYOffset < header[i].offsetTop)) {
+      header[i].classList.remove('stickyHeader')
+    }
     if ((window.pageYOffset + 50) > header[i].offsetTop) {
       //console.log(header[i])
       let current = document.querySelector('.stickyHeader')
@@ -42,9 +45,6 @@ function stickyHeader() {
       }
       header[i].classList.add('stickyHeader')
       emptyHeader[i].textContent = 'X'
-    }
-    if ((window.pageYOffset < emptyHeader[i].offsetTop)) {
-      header[i].classList.remove('stickyHeader')
     }
   }
 }

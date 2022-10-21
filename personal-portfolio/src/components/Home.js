@@ -7,6 +7,7 @@ class LandingPage extends React.Component {
         return (
             <div className='landingPage' id='homePage'>
                 <div className="landingPageText">
+                    <div className='header'></div>
                     <h1 className='intro'>Hello There!</h1>
                     <p className='name'>I'm Justin Kinsman</p>
                     <p className='selfTaught'>Self-taught full stack developer</p>
