@@ -38,7 +38,7 @@ function stickyHeader() {
       header[i].classList.remove('stickyHeader')
     }
     if ((window.pageYOffset + 50) > header[i].offsetTop) {
-      //console.log(header[i])
+      //console.log(header[i].offsetTop)
       let current = document.querySelector('.stickyHeader')
       if (current) {
         current.classList.remove('stickyHeader')

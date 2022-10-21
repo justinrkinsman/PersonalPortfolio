@@ -26,10 +26,12 @@ p, li {
     top: 0;
     width: 100%;
     padding-top: 32px;
+    z-index: 0;
 }
 
 .pageStickyHeader {
     display: none;
     visibility: hidden;
     padding: 40px;
+    z-index: 0;
 }
