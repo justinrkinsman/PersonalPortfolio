@@ -1,31 +1,43 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import "./About.css"
 import Working from '../images/working.jpg'
 
-function stickyHeader(header, emptyHeader) {
+/*export function stickyHeader(header, emptyHeader) {
     let sticky = header.offsetTop
     let empty = emptyHeader.offsetTop
+   // console.log(sticky)
+    console.log(window.pageYOffset)
     if ((window.pageYOffset + 50) > sticky){
         header.classList.add('stickyHeader')
+        console.log('stick')
         }
     if (window.pageYOffset < empty) {
         header.classList.remove('stickyHeader')
+        console.log('unstick')
         }
 }
 
+function replaceHeader() {
+
+}*/
+
 export function About() {
+    /*const headerRef = useRef(null)
+    const emptyHeaderRef = useRef(null)
     useEffect(() => {
-        const header = document.getElementById('aboutHeader')
-        const emptyHeader = document.getElementById('aboutPageStickyHeader')
+        const header = headerRef.current
+        const emptyHeader = emptyHeaderRef.current
+        //const stickyHeader = document.getElementsByClassName('header')
+        //console.log(header.current)
         window.onscroll = function() {
             stickyHeader(header, emptyHeader)
         }
-    }, [])
+    }, [])*/
     return (
         <>
-            <div id='aboutPageStickyHeader'></div>
+            <div id='aboutPageStickyHeader' className='stickyHeader' /*ref={emptyHeaderRef}*/></div>
             <div className='aboutSection' id='aboutPage'>
-                <h2 id='aboutHeader'>About</h2>
+                <h2 id='aboutHeader' className='header' /*ref={headerRef}*/>About</h2>
                 <div className="bio">
                     <h3 className='bioHeader'>Bio</h3>
                     <p>In 2022, after many false starts, I decided to finally pursue my goal of becoming a

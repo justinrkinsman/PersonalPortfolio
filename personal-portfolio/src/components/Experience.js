@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Experience.css'
+import { stickyHeader } from './About'
 
-class Experience extends React.Component {
-    render() {
-        return (
+export function Experience() {
+    //const ref = useRef(null)
+    /*useEffect(() => {
+        const header = document.getElementById('experienceHeader')
+        const emptyHeader = document.getElementById('experiencePageStickyHeader')
+        console.log(ref.current.id)
+        window.onscroll = function() {
+            stickyHeader(header, emptyHeader)
+        }
+    }, [])*/
+    return (
+        <>
+            <div id='experiencePageStickyHeader' className='stickyHeader' /*ref={ref}*/></div>
             <div className='experienceSection' id='experiencePage'>
-                <h2>Experience</h2>
+                <h2 id='experienceHeader' className='header'>Experience</h2>
                 <div className='handsOnExperience'>
                     <h3>Hands-On Experience</h3>
                     <h4>The Odin Project</h4>
-                    <p>The Odin Project is the online resource that I used to learn web development. This is 
+                    <p>The Odin Project is the online resource that I used to learn web development. This is
                         where I learned all of the languages and tools that I use today to create my web apps.
                         The most important things that I learned here were HTML, CSS, JavaScript, React, and
                         NodeJS
@@ -33,8 +44,6 @@ class Experience extends React.Component {
                     </ul>
                 </div>
             </div>
-        )
-    }
+        </>
+    )
 }
-
-export default Experience
