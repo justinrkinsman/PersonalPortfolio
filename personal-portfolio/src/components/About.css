@@ -28,6 +28,8 @@ p, li {
     padding-top: 32px;
 }
 
-.emptyHeader {
-    visibility: none
+.pageStickyHeader {
+    display: none;
+    visibility: hidden;
+    padding: 40px;
 }
