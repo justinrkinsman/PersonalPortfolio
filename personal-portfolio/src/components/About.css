@@ -21,27 +21,11 @@ p, li {
     justify-content: space-between;
 }
 
-.stickyHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding-top: 32px;
-    z-index: 0;
+.aboutSectionContent {
+    display: flex;
+    flex-direction: row;
 }
 
-.pageStickyHeader {
-    display: none;
-    visibility: hidden;
-    margin: 40px;
-}
-
-.activeHeader {
-    background-color: black;
-    height: 60px;
-}
-
-.activeSecondaryHeader {
-    margin-top: 75px;
+.bioText {
+    margin: 0px;
 }
