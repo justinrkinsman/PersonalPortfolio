@@ -24,6 +24,8 @@ p, li {
 .stickyHeader {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     padding-top: 32px;
     z-index: 0;
@@ -34,4 +36,8 @@ p, li {
     visibility: hidden;
     padding: 40px;
     z-index: 0;
+}
+
+.activeHeader {
+    background-color: black;
 }

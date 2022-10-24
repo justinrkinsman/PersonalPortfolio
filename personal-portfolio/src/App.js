@@ -37,14 +37,16 @@ function stickyHeader() {
     if ((window.pageYOffset < header[i].offsetTop)) {
       header[i].classList.remove('stickyHeader')
     }
-    if ((window.pageYOffset + 50) > header[i].offsetTop) {
+    if ((window.pageYOffset + 100) > header[i].offsetTop) {
       //console.log(header[i].offsetTop)
       let current = document.querySelector('.stickyHeader')
       if (current) {
         current.classList.remove('stickyHeader')
+        current.classList.remove('activeHeader')
       }
       header[i].classList.add('stickyHeader')
       emptyHeader[i].textContent = 'X'
+      header[i].classList.add('activeHeader')
     }
   }
 }
