@@ -9,7 +9,7 @@ class LandingPage extends React.Component {
                 <div className="landingPageText">
                     <div id='invisibleHeader' className='header'></div>
                     <h1 className='intro'>Hello There!</h1>
-                    <p className='name'>I'm Justin Kinsman</p>
+                    <p className='name'>I'm Justin</p>
                     <p className='selfTaught'>Self-taught full stack developer</p>
                 </div>
                 <div className="profilePic">

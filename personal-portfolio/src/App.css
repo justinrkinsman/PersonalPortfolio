@@ -45,6 +45,10 @@
   padding: 60px;
 }
 
+.header {
+  border-bottom: 1px solid purple;
+}
+
 /*#4b7d97
 #19394b
 #a1afbd
