@@ -34,11 +34,14 @@ p, li {
 .pageStickyHeader {
     display: none;
     visibility: hidden;
-    padding: 40px;
-    z-index: 0;
+    margin: 40px;
 }
 
 .activeHeader {
     background-color: black;
     height: 60px;
+}
+
+.activeSecondaryHeader {
+    margin-top: 75px;
 }

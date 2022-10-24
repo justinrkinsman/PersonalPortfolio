@@ -6,7 +6,7 @@ export const Contact = () => {
             <div id='contactPageStickyHeader' className='pageStickyHeader'></div>
             <div className='contactSection' id='contactPage'>
                 <h2 id='resumeHeader' className='header'>Contact Information</h2>
-                <h4>Justin Kinsman</h4>
+                <h4 className='secondaryHeader'>Justin Kinsman</h4>
                 <p>If any of what you've seen here interests you or if you have questions about any of my projects
                     please feel free to contact me.
                 </p>

@@ -14,7 +14,7 @@ function Projects() {
             <div id='projectsPageStickyHeader' className='pageStickyHeader'></div>
             <div className='projectsSection' id='projectsPage'>
                 <h2 id='projectsHeader' className='header'>Projects</h2>
-                <div className="projectGrid">
+                <div className="projectGrid secondaryHeader">
                     <ProjectCard source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description}/>
                     <ProjectCard source={images[0][1]} alt={images[0][0]} title={BATTLESHIP.title} languages={BATTLESHIP.languages} description={BATTLESHIP.description}/>
                 </div>

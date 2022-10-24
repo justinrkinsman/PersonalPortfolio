@@ -39,7 +39,7 @@ export function About() {
             <div className='aboutSection' id='aboutPage'>
                 <h2 id='aboutHeader' className='header' /*ref={headerRef}*/>About</h2>
                 <div className="bio">
-                    <h3 className='bioHeader'>Bio</h3>
+                    <h3 className='bioHeader secondaryHeader'>Bio</h3>
                     <p>In 2022, after many false starts, I decided to finally pursue my goal of becoming a
                         software engineer. From the moment I made my first basic website using nothing but HTML
                         I was hooked. From then on I decided that I must learn as much as I possibly could about

@@ -17,7 +17,7 @@ export function Experience() {
             <div className='experienceSection' id='experiencePage'>
                 <h2 id='experienceHeader' className='header'>Experience</h2>
                 <div className='handsOnExperience'>
-                    <h3>Hands-On Experience</h3>
+                    <h3 className='secondaryHeader'>Hands-On Experience</h3>
                     <h4>The Odin Project</h4>
                     <p>The Odin Project is the online resource that I used to learn web development. This is
                         where I learned all of the languages and tools that I use today to create my web apps.

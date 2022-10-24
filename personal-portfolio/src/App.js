@@ -26,11 +26,13 @@ function App() {
 }
 
 const header = document.getElementsByClassName('header')
-const emptyHeader = document.getElementsByClassName('pageStickyHeader')
+const emptyHeader = document.getElementsByClassName('secondaryHeader')
 
 window.onscroll = function () {
   stickyHeader()
 }
+
+//const trueStickyHeader = document.getElementsByClassName('stickyHeader')
 
 function stickyHeader() {
   for ( let i = 0; i < header.length; i++){
@@ -45,7 +47,6 @@ function stickyHeader() {
         current.classList.remove('activeHeader')
       }
       header[i].classList.add('stickyHeader')
-      emptyHeader[i].textContent = 'X'
       header[i].classList.add('activeHeader')
     }
   }
