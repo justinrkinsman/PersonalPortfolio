@@ -35,5 +35,4 @@ const BATTLESHIP = {
     description: 'This battleship game was my first attempt at building a project using TDD'
 }
 
-/*Make a subcomponent for individual project cards (functional components)*/
 export default Projects
