@@ -54,7 +54,7 @@ export function About() {
                             <li>Video games</li>
                             <li>Playing guitar</li>
                             <li>Reading</li>
-                            <li>Collecting obscure movies</li>
+                            <li>Watching bad movies</li>
                         </ul>
                     </div>
                 </div>
