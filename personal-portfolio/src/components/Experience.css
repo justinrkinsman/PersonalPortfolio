@@ -5,3 +5,18 @@ h4{
 .experienceSection {
     padding-top: 20px;
 }
+
+.experienceContent {
+    display: flex;
+}
+
+.tools {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.languagesHeader {
+    padding-left: 40px;
+}
