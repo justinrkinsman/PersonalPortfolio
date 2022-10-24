@@ -26,7 +26,7 @@ function App() {
 }
 
 const header = document.getElementsByClassName('header')
-const emptyHeader = document.getElementsByClassName('secondaryHeader')
+//const emptyHeader = document.getElementsByClassName('secondaryHeader')
 
 window.onscroll = function () {
   stickyHeader()
