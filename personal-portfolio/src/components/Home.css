@@ -27,3 +27,7 @@ img {
 .selfTaught {
     font-size: 25px;
 }
+
+#invisibleHeader {
+    display: none;
+}
