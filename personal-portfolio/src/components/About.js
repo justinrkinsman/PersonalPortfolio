@@ -40,10 +40,14 @@ export function About() {
                 <h2 id='aboutHeader' className='header'>About</h2>
                 <div className="bio">
                     <h3 className='bioHeader secondaryHeader'>Bio</h3>
-                    <p>In 2022, after many false starts, I decided to finally pursue my goal of becoming a
-                        software engineer. From the moment I made my first basic website using nothing but HTML
-                        I was hooked. From then on I decided that I must learn as much as I possibly could about
-                        coding and web development.
+                    <p>In 2022, after many false starts and dead-end jobs, I decided to finally get off my 
+                        butt and pursue my goal of becoming a software engineer. I landed on JavaScript as
+                        the language I wanted to learn and started down the path of web development. I 
+                        treated learning to code as a full-time job and began coding projects for 6-8 hours 
+                        every weekday. This past year has been an eye-opening experience and I can truly say,
+                        with all sincerity, that learning to code has changed my life. I am so excited to
+                        bring my new-found skills to the workforce and start my new life as a software
+                        engineer.
                     </p>
                 </div>
                 <div className='aboutMe'>
