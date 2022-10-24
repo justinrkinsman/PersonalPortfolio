@@ -25,16 +25,16 @@ function App() {
   );
 }
 
-const header = document.getElementsByClassName('header')
+/*const header = document.getElementsByClassName('header')
 //const emptyHeader = document.getElementsByClassName('secondaryHeader')
 
 window.onscroll = function () {
   stickyHeader()
-}
+}*/
 
 //const trueStickyHeader = document.getElementsByClassName('stickyHeader')
 
-function stickyHeader() {
+/*function stickyHeader() {
   for ( let i = 0; i < header.length; i++){
     if ((window.pageYOffset < header[i].offsetTop)) {
       header[i].classList.remove('stickyHeader')
@@ -50,7 +50,7 @@ function stickyHeader() {
       header[i].classList.add('activeHeader')
     }
   }
-}
+}*/
 
 export default App;
 
