@@ -48,7 +48,7 @@ export function About() {
                         new-found skills to the workforce and start my new life as a software engineer.
                     </p>
                     <div className="aboutMeText">
-                        <h3>About Me</h3>
+                        <h3>About me</h3>
                         <p>Outside of coding my hobbies include:</p>
                         <ul>
                             <li>Video games</li>
@@ -58,7 +58,7 @@ export function About() {
                         </ul>
                     </div>
                 </div>
-                <img src={Working} alt='Woman working at desk'></img>
+                <img id='meWorking' src={Working} alt='Woman working at desk'></img>
             </div>
         </div>
     )

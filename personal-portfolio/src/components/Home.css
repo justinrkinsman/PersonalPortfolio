@@ -8,7 +8,7 @@
     src: url('../fonts/PressStart2P-Regular.ttf');
 }
 
-img {
+#headshot {
     height: 500px;
     width: auto;
 }

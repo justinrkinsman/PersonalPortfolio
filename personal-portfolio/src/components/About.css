@@ -1,9 +1,26 @@
+@font-face {
+    font-family: player2;
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
+@font-face {
+    font-family: spaceage;
+    src: url('../fonts/space\ age.ttf');
+}
+
+@font-face {
+    font-family: sharetech;
+    src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+
 h2 {
     font-size: 35px;
+    font-family: spaceage;
 }
 
 h3 {
     font-size: 25px;
+    font-family: spaceage;
 }
 
 p, li {
@@ -13,7 +30,6 @@ p, li {
 .aboutSection {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
 }
 
 .aboutMe {
@@ -24,8 +40,23 @@ p, li {
 .aboutSectionContent {
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .bioText {
     margin: 0px;
+    font-family: sharetech
+}
+
+p, li, a {
+    font-family: sharetech
+}
+
+#meWorking {
+    height: 400px;
+    width: auto;
+}
+
+#aboutHeader { 
+    margin-top: 50px;
 }

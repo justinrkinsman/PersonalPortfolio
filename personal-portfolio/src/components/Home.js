@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
                     <p className='selfTaught'>Self-taught full stack developer</p>
                 </div>
                 <div className="profilePic">
-                    <img src={Profile} alt='Placeholder'></img>
+                    <img id='headshot' src={Profile} alt='Placeholder'></img>
                 </div>
             </div>
         )
