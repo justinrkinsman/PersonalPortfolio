@@ -15,7 +15,7 @@ export function Experience() {
                         ReactJS, and NodeJS.
                     </p>
                 </div>
-                <div>
+                <div className='langaugesAndTools'>
                     <h3 className='languagesHeader'>Languages and Tools I Use</h3>
                     <ul className="tools">
                         <li>

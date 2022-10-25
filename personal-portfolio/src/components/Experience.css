@@ -26,3 +26,12 @@ svg {
     height: 60px;
     width: auto;
 }
+
+.languagesAndTools {
+    display: flex;
+
+}
+
+.handsOnExperience {
+    max-width: 700px;
+}
