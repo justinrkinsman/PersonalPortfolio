@@ -2,3 +2,14 @@
     display: flex;
     gap: 10px;
 }
+
+.projectScreenshot {
+    height: 400px;
+    width: auto;
+}
+
+.projectCardTextContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
