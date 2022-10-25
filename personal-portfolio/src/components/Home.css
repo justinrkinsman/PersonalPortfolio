@@ -1,5 +1,15 @@
+@font-face {
+    font-family: fasthand;
+    src: url('../fonts/Fasthand-Regular.ttf');
+}
+
+@font-face {
+    font-family: player2;
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
 img {
-    height: 250px;
+    height: 500px;
     width: auto;
 }
 
@@ -14,20 +24,28 @@ img {
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
+    height: 100vh;
 }
 
 .intro {
     font-size: 50px;
+    font-family: fasthand;
+    margin-bottom: 0px;
 }
 
 .name {
     font-size: 35px;
+    font-family: fasthand;
+    margin-top: 0px;
 }
 
 .selfTaught {
-    font-size: 25px;
+    font-size: 20px;
+    font-family: player2;
 }
 
-#invisibleHeader {
-    display: none;
+.landingPageText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
