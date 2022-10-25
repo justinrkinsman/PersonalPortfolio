@@ -1,4 +1,3 @@
-import ResumeImage from '../images/resume.jpg'
 import './Resume.css'
 import ResumePDF from '../images/Resume-PDF.pdf'
 
