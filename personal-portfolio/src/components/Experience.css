@@ -4,6 +4,7 @@ h4{
 
 .experienceSection {
     padding-top: 20px;
+    height: 80vh;
 }
 
 .experienceContent {
@@ -19,4 +20,9 @@ h4{
 
 .languagesHeader {
     padding-left: 40px;
+}
+
+svg {
+    height: 60px;
+    width: auto;
 }
