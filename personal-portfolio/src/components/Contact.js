@@ -16,7 +16,7 @@ export const Contact = () => {
                             <input type='text' name='name' placeholder='Name'></input>
                             <input type='hidden' name="_subject" value='Portfolio Email'></input>
                             <input type='email' name='email' placeholder='Email' required></input>
-                            <input type='text' name='message' placeholder='Message' required></input>
+                            <textarea name='message' placeholder='Message' required></textarea>
                             <input type="hidden" name="_captcha" value="false"></input>
                             <button type='submit'>Submit</button>
                         </form>
