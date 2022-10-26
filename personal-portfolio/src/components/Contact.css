@@ -33,3 +33,7 @@
 #dummyframe {
     display: none;
 }
+
+.honeypot {
+    display: none;
+}

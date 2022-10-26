@@ -18,6 +18,7 @@ export const Contact = () => {
                             <input type='email' name='email' placeholder='Email' required></input>
                             <textarea name='message' placeholder='Message' required></textarea>
                             <input type="hidden" name="_captcha" value="false"></input>
+                            <input type="text" name="_honey" className='honeypot'></input>
                             <button type='submit'>Submit</button>
                         </form>
                     </div>
