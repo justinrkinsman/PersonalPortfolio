@@ -1,6 +1,9 @@
 .contactInfo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #4b7d97;
+    padding: 10px;
 }
 
 .contactSection {
@@ -21,13 +24,11 @@
     gap: 40px;
 }
 
-.githubLink, .linkedInLink {
-    background-color: #4b7d97;;
-}
-
 .emailForm {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    align-items: flex-end;
 }
 
 #dummyframe {
@@ -37,3 +38,28 @@
 .honeypot {
     display: none;
 }
+
+input[name='name'], input[name='email'] {
+    height: 30px;
+    width: 300px;
+}
+
+textarea {
+    height: 50px;
+    width: 300px;
+}
+
+button {
+    background-color: #a1afbd;
+    border: none;
+    border-radius: 6px;
+    padding: 3px;
+    box-shadow: 1px 1px 5px 1px rgba(76, 23, 90);
+}
+
+
+/*#4b7d97
+#19394b
+#a1afbd
+#1e132c
+#040c18*/

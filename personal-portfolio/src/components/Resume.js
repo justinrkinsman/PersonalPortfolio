@@ -7,7 +7,7 @@ export const Resume = () => {
             <h2 id='resumeHeader' className='header'>Resume</h2>
             <div className="resumeContent">
                 <iframe title='ResumePDFViewer' className='resumeScreenshot' src={ResumePDF}></iframe>
-                <a href={ResumePDF} download='Justin_Kinsman_Resume'><button>Download PDF</button></a>
+                <a href={ResumePDF} download='Justin_Kinsman_Resume'><button className='PDFButton'>Download PDF</button></a>
             </div>
         </div>
     )
