@@ -8,6 +8,10 @@
 
 .contactSection {
     padding-top: 20px;
+    background-color: rgba(4, 12, 24, 0.5);
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .links {
