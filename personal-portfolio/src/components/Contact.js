@@ -10,9 +10,16 @@ export const Contact = () => {
             </p>
             <div className="contactInfo">
                 <div className="links">
-                    <div className="emailLink">
-                        <p>Email</p>
-                        <p>justinrkinsman@gmail.com</p>
+                    <div>
+                        <iframe name='dummyframe' id='dummyframe' title='dummyframe'></iframe>
+                        <form action="https://formsubmit.co/justinrkinsman@gmail.com" method="POST" className='emailForm' target='dummyframe'>
+                            <input type='text' name='name' placeholder='Name'></input>
+                            <input type='hidden' name="_subject" value='Portfolio Email'></input>
+                            <input type='email' name='email' placeholder='Email' required></input>
+                            <input type='text' name='message' placeholder='Message' required></input>
+                            <input type="hidden" name="_captcha" value="false"></input>
+                            <button type='submit'>Submit</button>
+                        </form>
                     </div>
                     <div className="githubLink">
                         <p>GitHub</p>

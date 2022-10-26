@@ -24,3 +24,12 @@
 .githubLink, .linkedInLink {
     background-color: #4b7d97;;
 }
+
+.emailForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#dummyframe {
+    display: none;
+}
