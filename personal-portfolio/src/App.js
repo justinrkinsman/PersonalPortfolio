@@ -25,46 +25,4 @@ function App() {
   );
 }
 
-/*const header = document.getElementsByClassName('header')
-//const emptyHeader = document.getElementsByClassName('secondaryHeader')
-
-window.onscroll = function () {
-  stickyHeader()
-}*/
-
-//const trueStickyHeader = document.getElementsByClassName('stickyHeader')
-
-/*function stickyHeader() {
-  for ( let i = 0; i < header.length; i++){
-    if ((window.pageYOffset < header[i].offsetTop)) {
-      header[i].classList.remove('stickyHeader')
-    }
-    if ((window.pageYOffset + 100) > header[i].offsetTop) {
-      //console.log(header[i].offsetTop)
-      let current = document.querySelector('.stickyHeader')
-      if (current) {
-        current.classList.remove('stickyHeader')
-        current.classList.remove('activeHeader')
-      }
-      header[i].classList.add('stickyHeader')
-      header[i].classList.add('activeHeader')
-    }
-  }
-}*/
-
 export default App;
-
-/*export function stickyHeader(header, emptyHeader) {
-    let sticky = header.offsetTop
-    let empty = emptyHeader.offsetTop
-   // console.log(sticky)
-    console.log(window.pageYOffset)
-    if ((window.pageYOffset + 50) > sticky){
-        header.classList.add('stickyHeader')
-        console.log('stick')
-        }
-    if (window.pageYOffset < empty) {
-        header.classList.remove('stickyHeader')
-        console.log('unstick')
-        }
-} */
