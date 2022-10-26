@@ -26,3 +26,5 @@ function App() {
 }
 
 export default App;
+
+/* background photo creds https://unsplash.com/@alex_andrews?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText*/
