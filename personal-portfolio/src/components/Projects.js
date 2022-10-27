@@ -30,7 +30,7 @@ const LIBRARY = {
 const BATTLESHIP = {
     title: 'Battleship',
     languages: 'HTML, CSS, JavaScript, Jest',
-    description: 'This battleship game based on the board game'
+    description: 'Battleship game based on the popular board game'
 }
 
 const MEMORY = {
