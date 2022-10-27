@@ -6,8 +6,12 @@ export const Footer = () => {
             <p>Developed by Justin Kinsman</p>
             <p>Copyright © 2022</p>
             <div className='footerLinks'>
-                <p>Github</p>
-                <p>LinkedIn</p>
+                <a href="https://github.com/justinrkinsman" target='_blank' rel='noopener noreferrer'>
+                    <p>Github</p>
+                </a>
+                <a href="https://www.linkedin.com/in/justin-kinsman" target='_blank' rel='noopener noreferrer'>
+                    <p>LinkedIn</p>
+                </a>
             </div>
         </div>
     )
