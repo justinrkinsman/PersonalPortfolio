@@ -39,3 +39,13 @@ svg {
 .handsOnExperience {
     max-width: 700px;
 }
+
+@media (max-width: 1000px) {
+    .tools {
+        display: grid;
+        list-style: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+}
