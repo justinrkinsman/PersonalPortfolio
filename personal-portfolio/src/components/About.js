@@ -49,7 +49,7 @@ export function About() {
                     </p>
                     <div className="aboutMeText">
                         <h3>About me</h3>
-                        <p>Outside of coding my hobbies include:</p>
+                        <p className='outsideOfCoding'>Outside of coding my hobbies include:</p>
                         <ul>
                             <li>Video games</li>
                             <li>Playing guitar</li>
