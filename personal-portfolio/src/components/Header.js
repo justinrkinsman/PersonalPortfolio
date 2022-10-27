@@ -12,7 +12,6 @@ export const Navbar = () => {
                 <a href='#resumePage'>Resume</a>
                 <a href='#contactPage'>Contact</a>
             </div>
-            <div className='trueStickyHeader'></div>
         </>
     )
 }

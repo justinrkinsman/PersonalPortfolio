@@ -62,3 +62,24 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media (max-width: 1000px) {
+    #headshot {
+        height: 400px;
+        width: auto;
+    }
+
+    .landingPage {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        gap: 15px;
+        height: 65vh;
+    }
+
+    .landingPageText {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+}

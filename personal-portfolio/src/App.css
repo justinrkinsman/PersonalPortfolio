@@ -11,8 +11,11 @@
 }
 
 @media (max-width: 1000px) {
-  body {
-    display: none;
+  .content{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
   }
 }
 
