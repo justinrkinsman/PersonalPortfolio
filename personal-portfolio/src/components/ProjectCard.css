@@ -1,10 +1,13 @@
 .projectCard {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
     gap: 10px;
 }
 
 .projectScreenshot {
-    height: 400px;
+    height: 200px;
     width: auto;
 }
 

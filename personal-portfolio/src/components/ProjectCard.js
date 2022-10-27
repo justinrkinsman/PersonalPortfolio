@@ -6,9 +6,9 @@ export const ProjectCard = (props) => {
         <fieldset className='projectCard'>
             <img className='projectScreenshot' src={props.source} alt={props.alt}></img>
             <div className="projectCardTextContent">
-                <p>{props.title}</p>
-                <p>Languages/tools used: {props.languages}</p>
-                <p>{props.description}</p>
+                <p className='projectCardFont'>{props.title}</p>
+                <p className='projectCardFont'>Built with: {props.languages}</p>
+                <p className='projectCardFont'>{props.description}</p>
             </div>
         </fieldset>
     )
