@@ -7,6 +7,7 @@
 
 .footerLinks {
     display: flex;
+    gap: 10px;
 }
 
 /*#4b7d97
