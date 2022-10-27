@@ -21,3 +21,17 @@
 .PDFButton {
     margin-top: 5px;
 }
+
+@media (max-width: 1000px) {
+    .PDFButton {
+        height: 25px;
+        width: auto;
+    }
+
+    .resumeScreenshot {
+        width: 80vw;
+        height: 80vh;
+        zoom: 0.90
+    }
+    
+}
