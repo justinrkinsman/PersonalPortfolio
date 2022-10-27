@@ -61,6 +61,23 @@ button {
     box-shadow: 1px 1px 5px 1px rgba(76, 23, 90);
 }
 
+@media (max-width: 1000px) {
+    .contactInfo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linkText {
+        display: none;
+    }
+
+    .linkIcons {
+        display: flex;
+        gap: 30px;
+    }
+}
 
 /*#4b7d97
 #19394b
