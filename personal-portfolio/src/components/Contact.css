@@ -61,6 +61,10 @@ button {
     box-shadow: 1px 1px 5px 1px rgba(76, 23, 90);
 }
 
+.altContactText {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .contactInfo {
         display: flex;
@@ -76,6 +80,22 @@ button {
     .linkIcons {
         display: flex;
         gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainContactText {
+        display: none
+    }
+
+    .altContactText {
+        display: inline;
+        padding-bottom: 20px;
+    }
+
+    .contactSection {
+        display: flex;
+        flex-direction: column;
     }
 }
 

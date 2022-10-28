@@ -5,9 +5,10 @@ export const Contact = () => {
         <div className='contactSection' id='contactPage'>
             <h2 id='resumeHeader' className='header'>Contact Information</h2>
             <h4>Justin Kinsman</h4>
-            <p>If anything you've seen here is of interest and you would like to discuss possible 
-                employment or if you have any questions please feel free to contact me.
+            <p className='mainContactText'>If anything you've seen here is of interest and you would like to 
+            discuss possible employment or if you have any questions please feel free to contact me.
             </p>
+            <p className='altContactText'>If you would like to get in touch, please feel free to contact me below</p>
             <div className="contactInfo">
                 <div className="links">
                     <div className='linkIcons'>
