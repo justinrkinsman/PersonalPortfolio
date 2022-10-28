@@ -83,3 +83,12 @@
         gap: 0px;
     }
 }
+
+@media (max-width: 600px) {
+    .landingPage {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 80px;
+    }
+}
