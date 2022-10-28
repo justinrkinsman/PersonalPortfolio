@@ -83,6 +83,20 @@ p, li, a {
     }
 }
 
+@media (max-width: 600px) {
+    .aboutSectionContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #meWorking {
+        height: 200px;
+        width: auto;
+        margin-top: 0px;
+        z-index: 1;
+        align-self: center;
+    }
+}
 /*#4b7d97
 #19394b
 #a1afbd
