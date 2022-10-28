@@ -88,7 +88,7 @@
     .landingPage {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 130vh;
         margin: 80px;
     }
 }

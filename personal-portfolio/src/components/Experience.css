@@ -47,5 +47,16 @@ svg {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
-    
+}
+
+@media (max-width: 600px) {
+    .experienceContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experienceSection {
+        height: 160vh;
+
+    }
 }
