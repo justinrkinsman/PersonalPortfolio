@@ -39,7 +39,7 @@ export const Contact = () => {
                         <textarea name='message' placeholder='Message' required></textarea>
                         <input type="hidden" name="_captcha" value="false"></input>
                         <input type="text" name="_honey" className='honeypot'></input>
-                        <button type='submit'>Submit</button>
+                        <button type='submit' className='submitButton'>Submit</button>
                     </form>
                 </div>
             </div>

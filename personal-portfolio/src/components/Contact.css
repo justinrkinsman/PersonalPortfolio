@@ -97,6 +97,26 @@ button {
         display: flex;
         flex-direction: column;
     }
+
+    input[name='name'], input[name='email'] {
+        height: 30px;
+        width: 200px;
+    }
+    
+    textarea {
+        height: 50px;
+        width: 200px;
+    }
+
+    .contactInfo {
+        gap: 20px;
+    }
+
+    .submitButton {
+        height: 30px;
+        width: 55px;
+        font-size: 15px;
+    }
 }
 
 /*#4b7d97
