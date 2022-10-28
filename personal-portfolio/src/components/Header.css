@@ -18,6 +18,12 @@ a {
     width: 100%;
 }
 
+@media (max-width: 600px) {
+    .navLink {
+        font-size: 10px;
+    }
+}
+
 /*#4b7d97
 #19394b
 #a1afbd
