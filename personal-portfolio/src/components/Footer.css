@@ -10,6 +10,13 @@
     gap: 10px;
 }
 
+@media (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /*#4b7d97
 #19394b
 #a1afbd
