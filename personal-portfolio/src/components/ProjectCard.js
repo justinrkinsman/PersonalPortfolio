@@ -9,8 +9,8 @@ export const ProjectCard = (props) => {
             <div className="imageAndLinks">
                 <img className='projectScreenshot' src={props.source} alt={props.alt}></img>
                 <div className='projectLinks'>
-                    <img src={GitHubIcon} alt='Link to GitHub Repository' className='repositoryLink'></img>
-                    <img src={LinkIcon} alt='Link to live preview of project' className='previewLink'></img>
+                    <a href={props.repo}><img src={GitHubIcon} alt='Link to GitHub Repository' className='repositoryLink'></img></a>
+                    <a href={props.preview}><img src={LinkIcon} alt='Link to live preview of project' className='previewLink'></img></a>
                 </div>
             </div>
             <div className="projectCardTextContent">
