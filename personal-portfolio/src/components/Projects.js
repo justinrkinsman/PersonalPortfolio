@@ -1,21 +1,23 @@
 import React, { useState } from 'react'
 import { ProjectCard } from './ProjectCard'
+import Memory from '../images/memory.jpg'
 import Library from '../images/library.jpg'
 import './Projects.css'
 
 function Projects() {
     
     const [images] = useState([
-        ['Library Project Screenshot', Library]
+        ['Library Project Screenshot', Library],
+        ['Memory Card Project Screenshot', Memory]
     ])
     
     return (    
         <div className='projectsSection' id='projectsPage'>
             <h2 id='projectsHeader' className='header'>Projects</h2>
-            <div className="projectGrid secondaryHeader">
-                <ProjectCard source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description} preview={LIBRARY.preview} repo={LIBRARY.repo} />
-                <ProjectCard source={images[0][1]} alt={images[0][0]} title={BATTLESHIP.title} languages={BATTLESHIP.languages} description={BATTLESHIP.description} preview={LIBRARY.preview} repo={LIBRARY.repo}/>
-                <ProjectCard source={images[0][1]} alt={images[0][0]} title={MEMORY.title} languages={MEMORY.languages} description={MEMORY.description} preview={MEMORY.preview} repo={MEMORY.repo}/>
+            <div className="projectGrid secondaryHeader projectTest">
+                <ProjectCard className='project-screenshot' source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description} preview={LIBRARY.preview} repo={LIBRARY.repo} />
+                <ProjectCard className='project-screenshot' source={images[0][1]} alt={images[0][0]} title={BATTLESHIP.title} languages={BATTLESHIP.languages} description={BATTLESHIP.description} preview={LIBRARY.preview} repo={LIBRARY.repo}/>
+                <ProjectCard className='project-screenshot' source={images[1][1]} alt={images[1][0]} title={MEMORY.title} languages={MEMORY.languages} description={MEMORY.description} preview={MEMORY.preview} repo={MEMORY.repo}/>
             </div>
         </div>
     )
