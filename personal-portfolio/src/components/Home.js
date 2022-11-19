@@ -9,7 +9,7 @@ class LandingPage extends React.Component {
                 <div className="landingPageText">
                     <h1 className='intro'>Hello There!</h1>
                     <p className='name'>I'm Justin</p>
-                    <p className='selfTaught'>Self-taught full stack developer</p>
+                    <p className='selfTaught'>Self-taught full stack engineer</p>
                 </div>
                 <div className="profilePic">
                     <img id='headshot' src={Profile} alt='Placeholder'></img>
