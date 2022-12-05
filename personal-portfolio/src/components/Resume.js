@@ -1,5 +1,5 @@
 import './Resume.css'
-import ResumePDF from '../images/Resume-PDF.pdf'
+import ResumePDF from '../images/Resume_2022_Copy.pdf'
 
 export const Resume = () => {
     return (
