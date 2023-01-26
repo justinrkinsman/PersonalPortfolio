@@ -63,6 +63,29 @@
     gap: 20px;
 }
 
+.typewriter {
+    display: inline-block;
+}
+
+.selfTaught {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 2.5s steps(50, end) forwards, blink-caret .75s step-end infinite;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% {border-color: orange; }
+}
+
 @media (max-width: 1000px) {
     #headshot {
         height: 400px;
