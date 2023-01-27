@@ -7,13 +7,13 @@ class LandingPage extends React.Component {
         return (
             <div className='landingPage' id='homePage'>
                 <div className="landingPageText">
-                    <div className="typewriter-one">
+                    <div className="slide-in-one">
                         <h1 className='intro'>Hello There!</h1>
                     </div>
-                    <div className="typewriter-two">
+                    <div className="slide-in-two">
                         <p className='name'>I'm Justin</p>
                     </div>
-                    <div className="typewriter-three">
+                    <div className="typewriter">
                         <p className='selfTaught'>Self-taught full stack engineer</p>
                     </div>
                 </div>
