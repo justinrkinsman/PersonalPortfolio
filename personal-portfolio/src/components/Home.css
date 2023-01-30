@@ -48,13 +48,11 @@
     font-size: 35px;
     font-family: fasthand;
     margin-top: 0px;
-    /*text-shadow: 3px 3px red*/
 }
 
 .selfTaught {
     font-size: 20px;
     font-family: player2;
-    /*text-shadow: 3px 3px red*/
 }
 
 .landingPageText {
@@ -71,7 +69,7 @@
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
-    animation: typing 2.5s steps(50, end) forwards, blink-caret .75s step-end infinite;
+    animation: typing 2.5s steps(50, end) 2s forwards, blink-caret .75s step-end infinite;
     font-size: 1.6rem;
     width: 0;
 }
@@ -86,8 +84,14 @@
     50% {border-color: orange; }
 }
 
-.slide-in-one, .slide-in-two {
+.slide-in-one {
     animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.slide-in-two {
+    opacity: 0;
+    animation: 1s ease-out 1s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slideInFromLeft {
@@ -96,6 +100,7 @@
     }
     100% {
         transform: translateX(0);
+        opacity: 1;
     }
 }
 
