@@ -2,37 +2,22 @@ import React from 'react'
 import "./About.css"
 import Working from '../images/working.jpg'
 
-/*export function stickyHeader(header, emptyHeader) {
-    let sticky = header.offsetTop
-    let empty = emptyHeader.offsetTop
-   // console.log(sticky)
-    console.log(window.pageYOffset)
-    if ((window.pageYOffset + 50) > sticky){
-        header.classList.add('stickyHeader')
-        console.log('stick')
-        }
-    if (window.pageYOffset < empty) {
-        header.classList.remove('stickyHeader')
-        console.log('unstick')
-        }
+function reveal() {
+    let reveals = document.querySelector('.bioText')
+    let windowHeight = window.innerHeight
+    let elementTop = reveals.getBoundingClientRect().top
+    let elementVisible = 150
+    if (elementTop < windowHeight - elementVisible) {
+        reveals.classList.add("active")
+    } else {
+        reveals.classList.remove("active")
+    }
 }
 
-function replaceHeader() {
-
-}*/
+window.addEventListener("scroll", reveal)
 
 export function About() {
-    /*const headerRef = useRef(null)
-    const emptyHeaderRef = useRef(null)
-    useEffect(() => {
-        const header = headerRef.current
-        const emptyHeader = emptyHeaderRef.current
-        //const stickyHeader = document.getElementsByClassName('header')
-        //console.log(header.current)
-        window.onscroll = function() {
-            stickyHeader(header, emptyHeader)
-        }
-    }, [])*/
+    
     return (
         <div className='aboutSection' id='aboutPage'>
             <h2 id='aboutHeader' className='header'>About</h2>

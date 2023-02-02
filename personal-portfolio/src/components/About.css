@@ -63,6 +63,18 @@ p, li, a {
     margin-top: 50px;
 }
 
+.bioText {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 0.75s all linear;
+}
+
+.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
 @media (max-width: 1000px){
     .aboutSectionContent {
         display: flex;
