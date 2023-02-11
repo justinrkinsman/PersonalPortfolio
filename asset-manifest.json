@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.3ec798ca.css",
-    "main.js": "/PersonalPortfolio/static/js/main.0490676d.js",
+    "main.css": "/PersonalPortfolio/static/css/main.e64ce20f.css",
+    "main.js": "/PersonalPortfolio/static/js/main.2542e9f5.js",
     "static/media/library.jpg": "/PersonalPortfolio/static/media/library.a12e091a12ffe6645318.jpg",
     "static/media/Fasthand-Regular.ttf": "/PersonalPortfolio/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
     "static/media/memory.jpg": "/PersonalPortfolio/static/media/memory.af324664deb687c5d958.jpg",
@@ -13,11 +13,11 @@
     "static/media/ShareTechMono-Regular.ttf": "/PersonalPortfolio/static/media/ShareTechMono-Regular.d753b5dc50d171ecc94b.ttf",
     "static/media/space age.ttf": "/PersonalPortfolio/static/media/space age.ee4242670515bf1b8739.ttf",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.3ec798ca.css.map": "/PersonalPortfolio/static/css/main.3ec798ca.css.map",
-    "main.0490676d.js.map": "/PersonalPortfolio/static/js/main.0490676d.js.map"
+    "main.e64ce20f.css.map": "/PersonalPortfolio/static/css/main.e64ce20f.css.map",
+    "main.2542e9f5.js.map": "/PersonalPortfolio/static/js/main.2542e9f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ec798ca.css",
-    "static/js/main.0490676d.js"
+    "static/css/main.e64ce20f.css",
+    "static/js/main.2542e9f5.js"
   ]
 }
