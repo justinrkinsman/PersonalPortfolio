@@ -17,7 +17,7 @@ class LandingPage extends React.Component {
                         <p className='selfTaught'>Self-taught full stack engineer</p>
                     </div>
                 </div>
-                <div className="profilePic">
+                <div className="slide-in-three">
                     <img id='headshot' src={Profile} alt='Placeholder'></img>
                 </div>
             </div>

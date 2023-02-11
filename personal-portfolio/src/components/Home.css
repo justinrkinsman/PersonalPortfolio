@@ -13,6 +13,10 @@
     width: auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*.profilePic {
     width: 167px;
     height: 167px;
@@ -35,7 +39,6 @@
     font-size: 50px;
     font-family: fasthand;
     margin-bottom: 0px;
-    /*text-shadow: 3px 3px red*/
 }
 
 /*#4b7d97
@@ -94,9 +97,25 @@
     animation-fill-mode: forwards;
 }
 
+.slide-in-three {
+    opacity: 0;
+    animation: 1s ease-out 1s 1 slideInFromRight;
+    animation-fill-mode: forwards;
+}
+
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(200%);
     }
     100% {
         transform: translateX(0);
