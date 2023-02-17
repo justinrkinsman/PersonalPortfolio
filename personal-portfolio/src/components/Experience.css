@@ -37,7 +37,7 @@ svg {
 
 .languagesAndTools {
     display: flex;
-
+    margin-bottom: 40px;
 }
 
 .handsOnExperience {
