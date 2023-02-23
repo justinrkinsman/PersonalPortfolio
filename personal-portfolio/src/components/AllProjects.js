@@ -1,9 +1,10 @@
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { ProjectCard } from './ProjectCard'
 import Memory from '../images/memory.jpg'
 import Library from '../images/library.jpg'
 import Members_Only from '../images/members-only.jpg'
 import { useState } from "react"
+import './AllProjects.css'
 
 export function ProjectsPage() {
 
@@ -18,14 +19,18 @@ export function ProjectsPage() {
         navigate(-1)
     }
     return(
-        <>
+        <div className='all-projects'>
             <h1>All Projects</h1>
-            <Link to='/'>Back to Home</Link>
-            <button onClick={goBack}>Home</button>
-            <ProjectCard className='project-screenshot' source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description} preview={LIBRARY.preview} repo={LIBRARY.repo} />
-            <ProjectCard className='project-screenshot' source={images[2][1]} alt={images[2][0]} title={MEMBERS_ONLY.title} languages={MEMBERS_ONLY.languages} description={MEMBERS_ONLY.description} preview={MEMBERS_ONLY.preview} repo={MEMBERS_ONLY.repo}/>
-            <ProjectCard className='project-screenshot' source={images[1][1]} alt={images[1][0]} title={MEMORY.title} languages={MEMORY.languages} description={MEMORY.description} preview={MEMORY.preview} repo={MEMORY.repo}/>
-        </>
+            <button onClick={goBack}>Back to Home</button>
+            <div className='projectsSection' id='projectsPage'>
+                <h2 id='projectsHeader' className='header'>Projects</h2>
+                <div className="projectGrid secondaryHeader projectTest">
+                    <ProjectCard className='project-screenshot' source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description} preview={LIBRARY.preview} repo={LIBRARY.repo} />
+                    <ProjectCard className='project-screenshot' source={images[2][1]} alt={images[2][0]} title={MEMBERS_ONLY.title} languages={MEMBERS_ONLY.languages} description={MEMBERS_ONLY.description} preview={MEMBERS_ONLY.preview} repo={MEMBERS_ONLY.repo}/>
+                    <ProjectCard className='project-screenshot' source={images[1][1]} alt={images[1][0]} title={MEMORY.title} languages={MEMORY.languages} description={MEMORY.description} preview={MEMORY.preview} repo={MEMORY.repo}/>
+                </div>
+            </div>
+        </div>
     )
 }
 
