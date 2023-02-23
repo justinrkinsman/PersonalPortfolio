@@ -11,7 +11,7 @@ root.render(
     <BrowserRouter>
       <Routes>
           <Route path='/all-projects' element={<ProjectsPage />} />
-          <Route path='/' element={<App />} />
+          <Route path='*' element={<App />} />
       </Routes>
       <Link to='/all-projects'>All Projects</Link>
     </BrowserRouter>
