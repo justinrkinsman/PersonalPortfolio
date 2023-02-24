@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.1d22fc20.css",
-    "main.js": "/PersonalPortfolio/static/js/main.b057a600.js",
+    "main.css": "/PersonalPortfolio/static/css/main.0e0a5b5d.css",
+    "main.js": "/PersonalPortfolio/static/js/main.319c0d66.js",
     "static/media/library.jpg": "/PersonalPortfolio/static/media/library.a12e091a12ffe6645318.jpg",
     "static/media/Fasthand-Regular.ttf": "/PersonalPortfolio/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
     "static/media/memory.jpg": "/PersonalPortfolio/static/media/memory.af324664deb687c5d958.jpg",
@@ -11,13 +11,15 @@
     "static/media/members-only.jpg": "/PersonalPortfolio/static/media/members-only.b735a00ae776afeffc02.jpg",
     "static/media/working.jpg": "/PersonalPortfolio/static/media/working.cd1ae48de8efc7f0d62b.jpg",
     "static/media/ShareTechMono-Regular.ttf": "/PersonalPortfolio/static/media/ShareTechMono-Regular.d753b5dc50d171ecc94b.ttf",
+    "static/media/blog_api.jpg": "/PersonalPortfolio/static/media/blog_api.de8c5c1ff20f72241173.jpg",
+    "static/media/instabook.jpg": "/PersonalPortfolio/static/media/instabook.cd78c5e343b20d5438bb.jpg",
     "static/media/space age.ttf": "/PersonalPortfolio/static/media/space age.ee4242670515bf1b8739.ttf",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.1d22fc20.css.map": "/PersonalPortfolio/static/css/main.1d22fc20.css.map",
-    "main.b057a600.js.map": "/PersonalPortfolio/static/js/main.b057a600.js.map"
+    "main.0e0a5b5d.css.map": "/PersonalPortfolio/static/css/main.0e0a5b5d.css.map",
+    "main.319c0d66.js.map": "/PersonalPortfolio/static/js/main.319c0d66.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d22fc20.css",
-    "static/js/main.b057a600.js"
+    "static/css/main.0e0a5b5d.css",
+    "static/js/main.319c0d66.js"
   ]
 }
