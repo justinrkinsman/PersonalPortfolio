@@ -55,7 +55,7 @@ const MEMORY = {
 const BLOG_API = {
     title: 'Blog API',
     languages: 'JavaScript, Pug, CSS, EJS',
-    descript: 'Blog site using REST API for the backend to host two separate front-ends: one for blog owner to make posts, one for users to sign in and leave comments',
+    description: 'Blog site using REST API for the backend to host two separate front-ends: one for blog owner to make posts, one for users to sign in and leave comments',
     preview: 'https://github.com/justinrkinsman/Blog_API',
     repo: 'https://github.com/justinrkinsman/Blog_API'
 }
