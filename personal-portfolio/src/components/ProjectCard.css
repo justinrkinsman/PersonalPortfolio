@@ -9,7 +9,8 @@
 .projectScreenshot {
     height: 200px;
     width: 400px;
-    object-fit: cover;
+    background-size: cover;
+    background-position: left center;
 }
 
 .projectCardTextContent {
