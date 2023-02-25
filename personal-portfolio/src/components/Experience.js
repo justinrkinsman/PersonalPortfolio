@@ -1,11 +1,33 @@
 import React from 'react'
 import './Experience.css'
+import { useRef, useEffect } from 'react'
 
 export function Experience() {
+    const textRef = useRef(null);
+
+  useEffect(() => {
+    const text = textRef.current;
+
+    const onScroll = () => {
+      const top = text.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (top < windowHeight * 0.55) {
+        text.classList.add('active')
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+
     return (
         <div className='experienceSection' id='experiencePage'>
             <h2 id='experienceHeader' className='header'>Experience</h2>
-            <div className="experienceContent">
+            <div className="experienceContent slide-in" ref={textRef}>
                 <div className='handsOnExperience'>
                     <h3>Hands-On Experience</h3>
                     <h4>The Odin Project</h4>

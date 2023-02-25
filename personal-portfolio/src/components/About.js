@@ -1,30 +1,37 @@
 import React from 'react'
 import "./About.css"
 import Working from '../images/working.jpg'
-
-function reveal() {
-    let reveals = document.querySelector('.bioText')
-    let windowHeight = window.innerHeight
-    let elementTop = reveals.getBoundingClientRect().top
-    let elementVisible = 150
-    if (elementTop < windowHeight - elementVisible) {
-        reveals.classList.add("active")
-    } else {
-        reveals.classList.remove("active")
-    }
-}
-
-window.addEventListener("scroll", reveal)
+import { useEffect, useRef } from 'react'
 
 export function About() {
-    
+    const textRef = useRef(null);
+
+  useEffect(() => {
+    const text = textRef.current;
+
+    const onScroll = () => {
+      const top = text.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (top < windowHeight * 0.55) {
+        text.classList.add('active')
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+
     return (
         <div className='aboutSection' id='aboutPage'>
             <h2 id='aboutHeader' className='header'>About</h2>
             <h3 className='bioHeader secondaryHeader'>Bio</h3>
-            <div className="aboutSectionContent">
-                <div className="bio">
-                    <p className='bioText'>In 2022, after many false starts and dead-end jobs, I decided to finally get off my butt
+            <div className="aboutSectionContent slide-in" ref={textRef}>
+                <div className="bio-text">
+                    <p>In 2022, after many false starts and dead-end jobs, I decided to finally get off my butt
                         and pursue my goal of becoming a software engineer. I landed on JavaScript as the
                         language I wanted to learn and started down the path of web development. I treated
                         learning to code as a full-time job and began coding projects for 6-8 hours every

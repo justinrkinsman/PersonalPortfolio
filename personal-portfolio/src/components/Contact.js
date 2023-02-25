@@ -1,11 +1,33 @@
 import './Contact.css'
+import { useRef, useEffect } from 'react'
 
 export const Contact = () => {
+    const textRef = useRef(null);
+
+  useEffect(() => {
+    const text = textRef.current;
+
+    const onScroll = () => {
+      const top = text.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (top < windowHeight * 0.55) {
+        text.classList.add('active')
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+
     return(
         <div className='contactSection' id='contactPage'>
             <h2 id='resumeHeader' className='header'>Contact Information</h2>
             <h4>Justin Kinsman</h4>
-            <p className='mainContactText'>If anything you've seen here is of interest and you would like to 
+            <p className='mainContactText slide-in' ref={textRef}>If anything you've seen here is of interest and you would like to 
             discuss possible employment or if you have any questions please feel free to contact me.
             </p>
             <p className='altContactText'>If you would like to get in touch, please feel free to contact me below</p>
