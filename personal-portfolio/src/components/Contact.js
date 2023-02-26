@@ -10,7 +10,7 @@ export const Contact = () => {
     const onScroll = () => {
       const top = text.getBoundingClientRect().top;
       const windowHeight = window.innerHeight;
-      if (top < windowHeight * 0.55) {
+      if (top < windowHeight * 0.95) {
         text.classList.add('active')
         window.removeEventListener('scroll', onScroll);
       }
