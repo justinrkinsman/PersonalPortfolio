@@ -36,6 +36,9 @@ export function Experience() {
                         Some of the languages and tools I learned through TOP include HTML, CSS, JavaScript,
                         ReactJS, and NodeJS.
                     </p>
+                    <h4>Personal Projects</h4>
+                    <p>As of February 2023, I have built 15+ single-page applications using HTML, CSS, React & JavaScript; 5+ multi-page web applications using MERN stack and REST APIs; a mock ecommerce website using Python, Django and Bootstrap; and backend servers and databases using Express, Node.js, and MongoDB on multiple web apps
+                    </p>
                 </div>
                 <div className='langaugesAndTools'>
                     <h3 className='languagesHeader'>Languages and Tools I Use</h3>
