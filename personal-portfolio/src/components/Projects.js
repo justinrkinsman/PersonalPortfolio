@@ -19,9 +19,9 @@ function Projects() {
         <div className='projectsSection' id='projectsPage'>
             <h2 id='projectsHeader' className='header'>Projects</h2>
             <div className="projectGrid secondaryHeader projectTest">
-                <ProjectCard className='project-screenshot' source={images[1][1]} alt={images[1][0]} title={MEMBERS_ONLY.title} languages={MEMBERS_ONLY.languages} description={MEMBERS_ONLY.description} preview={MEMBERS_ONLY.preview} repo={MEMBERS_ONLY.repo}/>
-                <ProjectCard className='project-screenshot' source={images[2][1]} alt={images[2][0]} title={BLOG_API.title} languages={BLOG_API.languages} description={BLOG_API.description} preview={BLOG_API.preview} repo={BLOG_API.repo}/>
                 <ProjectCard className='project-screenshot' source={images[3][1]} alt={images[3][0]} title={INSTABOOK.title} languages={INSTABOOK.languages} description={INSTABOOK.description} preview={INSTABOOK.preview} repo={INSTABOOK.repo}/>
+                <ProjectCard className='project-screenshot' source={images[2][1]} alt={images[2][0]} title={BLOG_API.title} languages={BLOG_API.languages} description={BLOG_API.description} preview={BLOG_API.preview} repo={BLOG_API.repo}/>
+                <ProjectCard className='project-screenshot' source={images[1][1]} alt={images[1][0]} title={MEMBERS_ONLY.title} languages={MEMBERS_ONLY.languages} description={MEMBERS_ONLY.description} preview={MEMBERS_ONLY.preview} repo={MEMBERS_ONLY.repo}/>
                 <ProjectCard className='project-screenshot' source={images[0][1]} alt={images[0][0]} title={LIBRARY.title} languages={LIBRARY.languages} description={LIBRARY.description} preview={LIBRARY.preview} repo={LIBRARY.repo} />
             </div>
         </div>
