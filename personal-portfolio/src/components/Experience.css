@@ -17,7 +17,7 @@ h4{
 
 .experienceContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .tools {
