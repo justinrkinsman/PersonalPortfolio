@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard'
 import Library from '../images/library.jpg'
 import Members_Only from '../images/members-only.jpg'
 import Blog_API from '../images/blog_api.jpg'
-import InstaBook from '../images/instabook.jpg'
+import InstaBook from '../images/instabook-homepage.png'
 import './Projects.css'
 
 function Projects() {
@@ -31,7 +31,7 @@ function Projects() {
 const LIBRARY = {
     title: 'Library',
     languages: 'HTML, CSS, and JavaScript',
-    description: 'Library app to keep track of books read',
+    description: 'Library app to keep track of books read.',
     preview: 'https://justinrkinsman.github.io/library-livepreview/',
     repo: 'https://github.com/justinrkinsman/library-livepreview'
 }
@@ -39,7 +39,7 @@ const LIBRARY = {
 const MEMBERS_ONLY = {
     title: 'Members Only',
     languages: 'ejs, pug, mongoose, mongoDB, express, JavaScript',
-    description: 'Chatroom where users can create an account to create, read, update, and delete posts. Features password hashing and salting',
+    description: 'Chatroom where users can create an account to create, read, update, and delete posts. Features password hashing and salting.',
     preview: 'https://membersonly-production.up.railway.app/',
     repo: 'https://github.com/justinrkinsman/MembersOnly'
 }
@@ -47,7 +47,7 @@ const MEMBERS_ONLY = {
 const BLOG_API = {
     title: 'Blog API',
     languages: 'JavaScript, Pug, CSS, EJS, Mongoose, Express',
-    description: 'Blog site using REST API for the backend to host two separate front-ends: one for blog owner to make posts, one for users to sign in and leave comments',
+    description: 'Blog site using REST API for the backend to host two separate front-ends: one for blog owner to make posts, one for users to sign in and leave comments.',
     preview: 'https://github.com/justinrkinsman/Blog_API',
     repo: 'https://github.com/justinrkinsman/Blog_API'
 }
@@ -55,7 +55,7 @@ const BLOG_API = {
 const INSTABOOK = {
     title: "InstaBook",
     languages: 'JavaScript, Pug, CSS, EJS, Mongoose, Express',
-    description: 'Social media site that allows users to view posts and add friends. Users can only see posts of people they are friends with',
+    description: 'Social media site that allows users to view posts and add friends. Users can only see posts of people they are friends with.',
     preview: 'https://github.com/justinrkinsman/InstaBook',
     repo: 'https://github.com/justinrkinsman/InstaBook'
 }

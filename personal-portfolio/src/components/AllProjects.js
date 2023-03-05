@@ -4,7 +4,7 @@ import Memory from '../images/memory.jpg'
 import Library from '../images/library.jpg'
 import Members_Only from '../images/members-only.jpg'
 import Blog_API from '../images/blog_api.jpg'
-import InstaBook from '../images/instabook.jpg'
+import InstaBook from '../images/instabook-homepage.png'
 import { useState } from "react"
 import './AllProjects.css'
 
