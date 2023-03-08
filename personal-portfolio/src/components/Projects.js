@@ -55,8 +55,8 @@ const BLOG_API = {
 const INSTABOOK = {
     title: "InstaBook",
     languages: 'JavaScript, Pug, CSS, EJS, Mongoose, Express',
-    description: 'Social media site that allows users to view posts and add friends. Users can only see posts of people they are friends with.',
-    preview: 'https://github.com/justinrkinsman/InstaBook',
+    description: 'Social media site that allows users to view posts and add friends. Users can only see posts of people they are friends with. Sign in as guest with username: guest and password: password.',
+    preview: 'https://instabook-production.up.railway.app/login',
     repo: 'https://github.com/justinrkinsman/InstaBook'
 }
 
