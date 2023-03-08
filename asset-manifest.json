@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.38486c6f.css",
-    "main.js": "/PersonalPortfolio/static/js/main.971d1077.js",
+    "main.css": "/PersonalPortfolio/static/css/main.21af5179.css",
+    "main.js": "/PersonalPortfolio/static/js/main.cb17275a.js",
     "static/media/library.jpg": "/PersonalPortfolio/static/media/library.a12e091a12ffe6645318.jpg",
     "static/media/Fasthand-Regular.ttf": "/PersonalPortfolio/static/media/Fasthand-Regular.83ad7a92c1580f6e78b8.ttf",
     "static/media/memory.jpg": "/PersonalPortfolio/static/media/memory.af324664deb687c5d958.jpg",
     "static/media/PressStart2P-Regular.ttf": "/PersonalPortfolio/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
     "static/media/profile.jpg": "/PersonalPortfolio/static/media/profile.95cc336d3a5b24292e31.jpg",
     "static/media/Resume_2022_Copy.pdf": "/PersonalPortfolio/static/media/Resume_2022_Copy.2a2b16ef6f445ea666f6.pdf",
+    "static/media/instabook-homepage.png": "/PersonalPortfolio/static/media/instabook-homepage.532c4dff1da0b8abaeef.png",
     "static/media/members-only.jpg": "/PersonalPortfolio/static/media/members-only.b735a00ae776afeffc02.jpg",
     "static/media/working.jpg": "/PersonalPortfolio/static/media/working.cd1ae48de8efc7f0d62b.jpg",
     "static/media/ShareTechMono-Regular.ttf": "/PersonalPortfolio/static/media/ShareTechMono-Regular.d753b5dc50d171ecc94b.ttf",
     "static/media/blog_api.jpg": "/PersonalPortfolio/static/media/blog_api.de8c5c1ff20f72241173.jpg",
-    "static/media/instabook.jpg": "/PersonalPortfolio/static/media/instabook.cd78c5e343b20d5438bb.jpg",
     "static/media/space age.ttf": "/PersonalPortfolio/static/media/space age.ee4242670515bf1b8739.ttf",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.38486c6f.css.map": "/PersonalPortfolio/static/css/main.38486c6f.css.map",
-    "main.971d1077.js.map": "/PersonalPortfolio/static/js/main.971d1077.js.map"
+    "main.21af5179.css.map": "/PersonalPortfolio/static/css/main.21af5179.css.map",
+    "main.cb17275a.js.map": "/PersonalPortfolio/static/js/main.cb17275a.js.map"
   },
   "entrypoints": [
-    "static/css/main.38486c6f.css",
-    "static/js/main.971d1077.js"
+    "static/css/main.21af5179.css",
+    "static/js/main.cb17275a.js"
   ]
 }
